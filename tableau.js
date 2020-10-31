@@ -11,7 +11,7 @@ window.onload= function() {
 	};
 	viz = new tableau.Viz(vizDiv, vizURL, options);
 };
-
+var tableau;
 function switchView(sheetName) {
 	var workbook = viz.getWorkbook();
 	workbook.activateSheetAsync(sheetName);
