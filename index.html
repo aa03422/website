@@ -3,11 +3,10 @@
 
 <html>
 <head>
-	<title>Tableau JavaScript In Action Video</title>
+	<title>Data Science Project</title>
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<link href="bootstrap.css" rel="stylesheet" media="screen">
     
-    <!-- Access the API & Load your JavaScript -->
     <script type='text/javascript'
         src='http://public.tableau.com/javascripts/api/tableau-2.min.js'></script>
     <script type='text/javascript' src='tableau.js'></script>
@@ -22,9 +21,6 @@
 
 			<ul id = 'menu' class='nav nav-list span2'>
                 
-                <!--These buttons will interact with our viz.-->
-                <!-- But the functions, switchView, show, and selectMarks-->
-                <!-- are custom functions that don't do anything until we write the functions in jsapi_in_action.js-->
 				<li class='nav-header'>Switching Views</li>
 				<li><a onClick="switchView('Sheet 1')">LineChart</a></li>
 				<li><a onClick="switchView('Sheet 2')">TreeMap</a></li>
@@ -35,8 +31,7 @@
 				<li><a href="https://opendata.com.pk/dataset/determinants-and-reasons-behind-low-enrollment-or-school-dropouts-in-rural-areas-of-pakistan">Dataset</a></li>
 				<li><a href="about_us.html">The Team</a></li>
 			</ul>
-            
-            <!-- Create an empty div to put the viz -->
+
 			<div id='myViz'></div>
             
 		</div>
