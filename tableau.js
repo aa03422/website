@@ -6,7 +6,7 @@ window.onload= function() {
 	var options = {
 		width: '1050px',
 		height: '600px',
-		hideToolbar: true,
+		hideToolbar: false,
 		hideTabs: true
 	};
 	viz = new tableau.Viz(vizDiv, vizURL, options);
