@@ -28,7 +28,7 @@
 }
 .input-block-level {
   display: block;
-  width: 100%;
+  width: 50%;
   min-height: 30px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -211,7 +211,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #e814c8;
 }
 a {
   color: #0088cc;
@@ -293,7 +293,7 @@ a:focus {
   width: 300px;
 }
 .span3 {
-  width: 120px;
+  width: 150px;
 }
 .span2 {
   width: 140px;
@@ -520,8 +520,8 @@ a:focus {
   float: right;
 }
 .container {
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 60px;
+  margin-left: 60px;
   *zoom: 1;
 }
 .container:before,
@@ -3128,8 +3128,8 @@ input[type="submit"].btn.btn-mini {
   margin-top: 9px;
 }
 .nav-list {
-  padding-left: 15px;
   padding-right: 15px;
+  padding-top: 40px;
   margin-bottom: 0;
 }
 .nav-list > li > a,
@@ -4044,7 +4044,7 @@ input[type="submit"].btn.btn-mini {
   border-bottom-right-radius: 4px;
 }
 .pagination-centered {
-  text-align: center;
+  text-align: right;
 }
 .pagination-right {
   text-align: right;
@@ -4052,7 +4052,7 @@ input[type="submit"].btn.btn-mini {
 .pagination-large ul > li > a,
 .pagination-large ul > li > span {
   padding: 11px 19px;
-  font-size: 17.5px;
+  font-size: 25px;
 }
 .pagination-large ul > li:first-child > a,
 .pagination-large ul > li:first-child > span {
@@ -5463,7 +5463,7 @@ button.close {
     position: static;
   }
 }
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 1100px) {
   .row {
     margin-left: -20px;
     *zoom: 1;
@@ -5516,7 +5516,7 @@ button.close {
     width: 228px;
   }
   .span3 {
-    width: 166px;
+    width: 150px;
   }
   .span2 {
     width: 104px;
@@ -5627,8 +5627,8 @@ button.close {
     *width: 31.43852121782062%;
   }
   .row-fluid .span3 {
-    width: 22.92817679558011%;
-    *width: 22.87498530621841%;
+    width: 12.92817679558011%;
+    *width: 12.87498530621841%;
   }
   .row-fluid .span2 {
     width: 14.3646408839779%;
@@ -5790,7 +5790,7 @@ button.close {
   input.span3,
   textarea.span3,
   .uneditable-input.span3 {
-    width: 152px;
+    width: 50px;
   }
   input.span2,
   textarea.span2,
@@ -5835,7 +5835,7 @@ button.close {
     width: 1070px;
   }
   .span10 {
-    width: 970px;
+    width: 1100px;
   }
   .span9 {
     width: 870px;
@@ -5856,7 +5856,7 @@ button.close {
     width: 370px;
   }
   .span3 {
-    width: 270px;
+    width: 150px;
   }
   .span2 {
     width: 170px;
@@ -6273,7 +6273,7 @@ button.close {
   .nav-collapse .navbar-form,
   .nav-collapse .navbar-search {
     float: none;
-    padding: 10px 15px;
+    padding: 2px 2px;
     margin: 10px 0;
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
